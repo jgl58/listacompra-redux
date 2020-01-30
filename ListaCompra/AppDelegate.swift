@@ -2,11 +2,15 @@
 //  AppDelegate.swift
 //  ListaCompra
 //
-//  Created by Otto Colomina Pardo on 30/01/2020.
-//  Copyright © 2020 Otto Colomina Pardo. All rights reserved.
+//  Created by Otto Colomina Pardo on 21/1/18.
+//  Copyright © 2018 Universidad de Alicante. All rights reserved.
 //
 
 import UIKit
+import ReSwift
+
+
+let store = Store<AppState>(reducer: appReducer, state: nil)
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -27,6 +31,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func applicationDidEnterBackground(_ application: UIApplication) {
         // Use this method to release shared resources, save user data, invalidate timers, and store enough application state information to restore your application to its current state in case it is terminated later.
         // If your application supports background execution, this method is called instead of applicationWillTerminate: when the user quits.
+        if let vc = self.window?.rootViewController as? ListaViewController {
+            RepositorioLista().guardarLista(vc.lista)
+            print("Lista guardada...\(Date())")
+        }
     }
 
     func applicationWillEnterForeground(_ application: UIApplication) {
@@ -39,8 +47,11 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func applicationWillTerminate(_ application: UIApplication) {
         // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
+        if let vc = self.window?.rootViewController as? ListaViewController {
+            RepositorioLista().guardarLista(vc.lista)
+            print("Lista guardada...\(Date())")
+        }
+        print("Lista guardada...\(Date())")
     }
-
-
 }
 

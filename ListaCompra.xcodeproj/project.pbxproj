@@ -7,14 +7,37 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2756446C23E3130100599BFF /* ListaCompraProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2756446123E3130000599BFF /* ListaCompraProtocol.swift */; };
+		2756446D23E3130100599BFF /* ListaCompra.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2756446223E3130000599BFF /* ListaCompra.swift */; };
+		2756446E23E3130100599BFF /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2756446323E3130000599BFF /* Item.swift */; };
+		2756446F23E3130100599BFF /* CeldaItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2756446523E3130000599BFF /* CeldaItem.swift */; };
+		2756447023E3130100599BFF /* ListaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2756446623E3130000599BFF /* ListaViewController.swift */; };
+		2756447123E3130100599BFF /* RepositorioLista.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2756446823E3130000599BFF /* RepositorioLista.swift */; };
+		2756447223E3130100599BFF /* RepositorioListaProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2756446923E3130000599BFF /* RepositorioListaProtocol.swift */; };
+		2756447323E3130100599BFF /* ListaCompraDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2756446A23E3130000599BFF /* ListaCompraDataSource.swift */; };
+		2756447423E3130100599BFF /* NuevoItemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2756446B23E3130000599BFF /* NuevoItemViewController.swift */; };
 		27E1A65F23E311DB009B3CDB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27E1A65E23E311DB009B3CDB /* AppDelegate.swift */; };
 		27E1A66123E311DB009B3CDB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27E1A66023E311DB009B3CDB /* ViewController.swift */; };
 		27E1A66423E311DB009B3CDB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 27E1A66223E311DB009B3CDB /* Main.storyboard */; };
 		27E1A66623E311DC009B3CDB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 27E1A66523E311DC009B3CDB /* Assets.xcassets */; };
 		27E1A66923E311DC009B3CDB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 27E1A66723E311DC009B3CDB /* LaunchScreen.storyboard */; };
+		5176A0A906198676184A0A67 /* Pods_ListaCompra.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0AD403CB6A4D793FA17A31F2 /* Pods_ListaCompra.framework */; };
+		7DE13D4B23E3329600E58A49 /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DE13D4A23E3329600E58A49 /* File.swift */; };
+		7DE13D4E23E3331400E58A49 /* CompraActions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DE13D4D23E3331400E58A49 /* CompraActions.swift */; };
+		7DE13D5123E3335800E58A49 /* AppReducer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DE13D5023E3335800E58A49 /* AppReducer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0AD403CB6A4D793FA17A31F2 /* Pods_ListaCompra.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ListaCompra.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2756446123E3130000599BFF /* ListaCompraProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListaCompraProtocol.swift; sourceTree = "<group>"; };
+		2756446223E3130000599BFF /* ListaCompra.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListaCompra.swift; sourceTree = "<group>"; };
+		2756446323E3130000599BFF /* Item.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		2756446523E3130000599BFF /* CeldaItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CeldaItem.swift; sourceTree = "<group>"; };
+		2756446623E3130000599BFF /* ListaViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ListaViewController.swift; path = ListaCompra/ListaViewController.swift; sourceTree = "<group>"; };
+		2756446823E3130000599BFF /* RepositorioLista.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RepositorioLista.swift; sourceTree = "<group>"; };
+		2756446923E3130000599BFF /* RepositorioListaProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RepositorioListaProtocol.swift; sourceTree = "<group>"; };
+		2756446A23E3130000599BFF /* ListaCompraDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ListaCompraDataSource.swift; path = ListaCompra/ListaCompraDataSource.swift; sourceTree = "<group>"; };
+		2756446B23E3130000599BFF /* NuevoItemViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NuevoItemViewController.swift; path = ListaCompra/NuevoItemViewController.swift; sourceTree = "<group>"; };
 		27E1A65B23E311DB009B3CDB /* ListaCompra.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ListaCompra.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		27E1A65E23E311DB009B3CDB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		27E1A66023E311DB009B3CDB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +45,11 @@
 		27E1A66523E311DC009B3CDB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		27E1A66823E311DC009B3CDB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		27E1A66A23E311DC009B3CDB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		393764FC601A24975CB8BBF4 /* Pods-ListaCompra.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ListaCompra.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ListaCompra/Pods-ListaCompra.debug.xcconfig"; sourceTree = "<group>"; };
+		7DE13D4A23E3329600E58A49 /* File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
+		7DE13D4D23E3331400E58A49 /* CompraActions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompraActions.swift; sourceTree = "<group>"; };
+		7DE13D5023E3335800E58A49 /* AppReducer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppReducer.swift; sourceTree = "<group>"; };
+		A9534D90BA6A2CADFBA23684 /* Pods-ListaCompra.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ListaCompra.release.xcconfig"; path = "Pods/Target Support Files/Pods-ListaCompra/Pods-ListaCompra.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +57,59 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5176A0A906198676184A0A67 /* Pods_ListaCompra.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2756446023E3130000599BFF /* modelo */ = {
+			isa = PBXGroup;
+			children = (
+				2756446123E3130000599BFF /* ListaCompraProtocol.swift */,
+				2756446223E3130000599BFF /* ListaCompra.swift */,
+				2756446323E3130000599BFF /* Item.swift */,
+			);
+			name = modelo;
+			path = ListaCompra/modelo;
+			sourceTree = "<group>";
+		};
+		2756446423E3130000599BFF /* vista */ = {
+			isa = PBXGroup;
+			children = (
+				2756446523E3130000599BFF /* CeldaItem.swift */,
+			);
+			name = vista;
+			path = ListaCompra/vista;
+			sourceTree = "<group>";
+		};
+		2756446723E3130000599BFF /* datos */ = {
+			isa = PBXGroup;
+			children = (
+				2756446823E3130000599BFF /* RepositorioLista.swift */,
+				2756446923E3130000599BFF /* RepositorioListaProtocol.swift */,
+			);
+			name = datos;
+			path = ListaCompra/datos;
+			sourceTree = "<group>";
+		};
 		27E1A65223E311DB009B3CDB = {
 			isa = PBXGroup;
 			children = (
+				7DE13D4F23E3334400E58A49 /* Reducers */,
+				7DE13D4C23E332CF00E58A49 /* Actions */,
+				7DE13D4923E3328000E58A49 /* State */,
+				2756446723E3130000599BFF /* datos */,
+				2756446A23E3130000599BFF /* ListaCompraDataSource.swift */,
+				2756446623E3130000599BFF /* ListaViewController.swift */,
+				2756446023E3130000599BFF /* modelo */,
+				2756446B23E3130000599BFF /* NuevoItemViewController.swift */,
+				2756446423E3130000599BFF /* vista */,
 				27E1A65D23E311DB009B3CDB /* ListaCompra */,
 				27E1A65C23E311DB009B3CDB /* Products */,
+				FD7B98FDB584AFC944A41484 /* Pods */,
+				544624F636F5D5D4B037900A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -64,6 +134,47 @@
 			path = ListaCompra;
 			sourceTree = "<group>";
 		};
+		544624F636F5D5D4B037900A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0AD403CB6A4D793FA17A31F2 /* Pods_ListaCompra.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7DE13D4923E3328000E58A49 /* State */ = {
+			isa = PBXGroup;
+			children = (
+				7DE13D4A23E3329600E58A49 /* File.swift */,
+			);
+			path = State;
+			sourceTree = "<group>";
+		};
+		7DE13D4C23E332CF00E58A49 /* Actions */ = {
+			isa = PBXGroup;
+			children = (
+				7DE13D4D23E3331400E58A49 /* CompraActions.swift */,
+			);
+			path = Actions;
+			sourceTree = "<group>";
+		};
+		7DE13D4F23E3334400E58A49 /* Reducers */ = {
+			isa = PBXGroup;
+			children = (
+				7DE13D5023E3335800E58A49 /* AppReducer.swift */,
+			);
+			path = Reducers;
+			sourceTree = "<group>";
+		};
+		FD7B98FDB584AFC944A41484 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				393764FC601A24975CB8BBF4 /* Pods-ListaCompra.debug.xcconfig */,
+				A9534D90BA6A2CADFBA23684 /* Pods-ListaCompra.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -71,9 +182,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 27E1A66D23E311DC009B3CDB /* Build configuration list for PBXNativeTarget "ListaCompra" */;
 			buildPhases = (
+				C27B0149D3A2F38B365E5B83 /* [CP] Check Pods Manifest.lock */,
 				27E1A65723E311DB009B3CDB /* Sources */,
 				27E1A65823E311DB009B3CDB /* Frameworks */,
 				27E1A65923E311DB009B3CDB /* Resources */,
+				4CE6E00ADD4D7F2DF405EDAA /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -130,13 +243,72 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		4CE6E00ADD4D7F2DF405EDAA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-ListaCompra/Pods-ListaCompra-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/ReSwift/ReSwift.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ReSwift.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ListaCompra/Pods-ListaCompra-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C27B0149D3A2F38B365E5B83 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ListaCompra-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		27E1A65723E311DB009B3CDB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2756447223E3130100599BFF /* RepositorioListaProtocol.swift in Sources */,
+				7DE13D5123E3335800E58A49 /* AppReducer.swift in Sources */,
+				7DE13D4B23E3329600E58A49 /* File.swift in Sources */,
+				2756446E23E3130100599BFF /* Item.swift in Sources */,
 				27E1A66123E311DB009B3CDB /* ViewController.swift in Sources */,
+				2756446F23E3130100599BFF /* CeldaItem.swift in Sources */,
+				2756446C23E3130100599BFF /* ListaCompraProtocol.swift in Sources */,
 				27E1A65F23E311DB009B3CDB /* AppDelegate.swift in Sources */,
+				2756447123E3130100599BFF /* RepositorioLista.swift in Sources */,
+				2756447423E3130100599BFF /* NuevoItemViewController.swift in Sources */,
+				2756447023E3130100599BFF /* ListaViewController.swift in Sources */,
+				2756447323E3130100599BFF /* ListaCompraDataSource.swift in Sources */,
+				2756446D23E3130100599BFF /* ListaCompra.swift in Sources */,
+				7DE13D4E23E3331400E58A49 /* CompraActions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,6 +452,7 @@
 		};
 		27E1A66E23E311DC009B3CDB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 393764FC601A24975CB8BBF4 /* Pods-ListaCompra.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -298,6 +471,7 @@
 		};
 		27E1A66F23E311DC009B3CDB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A9534D90BA6A2CADFBA23684 /* Pods-ListaCompra.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
